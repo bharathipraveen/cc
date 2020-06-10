@@ -29,6 +29,9 @@ public class Sample {
 			driver.switchTo().window(x);
 			
 		}
+		String parantid1 = driver.getWindowHandle();
+		System.out.println(parantid1);
+		
 	}
 		
 	}
